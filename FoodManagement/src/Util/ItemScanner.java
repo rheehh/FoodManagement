@@ -7,15 +7,16 @@ public class ItemScanner {
 	int year, mon, day, hour;
 	String month,days,hours;
 	String name="hakhyun";
+	String nameTwo="hyun su";
 	public String scanAll() {
 		year = 2019;
-		System.out.println("¸î¿ùÀÎ°¡¿ä");
+		System.out.println("ëª‡ì›”ì¸ê°€ìš”");
 		monthScanner = new Scanner(System.in);
 		mon = monthScanner.nextInt();
-		System.out.println("¸îÀÏÀÎ°¡¿ä");
+		System.out.println("ëª‡ì¼ì¸ê°€ìš”");
 		dayScanner = new Scanner(System.in);
 		day = dayScanner.nextInt();
-		System.out.println("¸î½ÃÀÎ°¡¿ä");
+		System.out.println("ëª‡ì‹œì¸ê°€ìš”");
 		hourScanner = new Scanner(System.in);
 		hour = hourScanner.nextInt();
 		if(mon<10)  month= "0"+mon;
