@@ -6,6 +6,7 @@ public class ItemScanner {
 	Scanner monthScanner, dayScanner, hourScanner;
 	int year, mon, day, hour;
 	String month,days,hours;
+	String name="hakhyun";
 	public String scanAll() {
 		year = 2019;
 		System.out.println("몇월인가요");
